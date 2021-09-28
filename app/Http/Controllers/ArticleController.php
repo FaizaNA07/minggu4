@@ -11,7 +11,7 @@ class ArticleController extends Controller
         $article = Article::all();
         return view('home',['article'=> $article]);
     }
-
+    
     public function getById($id){
         $article = Article::find($id);
         return view('article',['article'=> $article]);

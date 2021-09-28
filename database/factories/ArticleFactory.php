@@ -19,6 +19,7 @@ class ArticleFactory extends Factory
      *
      * @return array
      */
+
     public function definition()
     {
         $title = $this->faker->sentence;
