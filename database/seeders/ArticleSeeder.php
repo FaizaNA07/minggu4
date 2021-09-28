@@ -12,8 +12,7 @@ class ArticleSeeder extends Seeder
      *
      * @return void
      */
-    public function run()
-    {
+    public function run(){
         DB::table('article')->insert([
             'title' => 'Belajar Model Dengan Laravel',
             'image' => 'https://via.placeholder.com/640x480.png/00ff77?text=Belajar Model',
